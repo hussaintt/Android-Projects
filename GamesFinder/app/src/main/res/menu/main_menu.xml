@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:title="Genres">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/All"
+                    android:icon="@drawable/all"
+                    android:title="All" />
+                <item
+                    android:id="@+id/Action"
+                    android:icon="@drawable/action"
+                    android:title="Action" />
+
+                <item
+                    android:id="@+id/Strategy"
+                    android:icon="@drawable/strategy"
+                    android:title="Strategy" />
+
+                <item
+                    android:id="@+id/RPG"
+                    android:icon="@drawable/rpg"
+                    android:title="RPG" />
+
+                <item
+                    android:id="@+id/Shooter"
+                    android:icon="@drawable/shooter"
+                    android:title="Shooter" />
+                <item
+                    android:id="@+id/Adventure"
+                    android:icon="@drawable/adventure"
+                    android:title="Adventure" />
+                <item
+                    android:id="@+id/Puzzle"
+                    android:icon="@drawable/puzzle"
+                    android:title="Puzzle" />
+                <item
+                    android:id="@+id/Racing"
+                    android:icon="@drawable/racing"
+                    android:title="Racing" />
+                <item
+                    android:id="@+id/Sport"
+                    android:icon="@drawable/sport"
+                    android:title="Sport" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/xb36"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ps"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+</menu>

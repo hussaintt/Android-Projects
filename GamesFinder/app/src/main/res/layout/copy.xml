@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/data"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/PlatformsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Platforms"
+        android:layout_margin="20dp"
+        android:textColor="#9F9D9D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Platforms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="@+id/PlatformsLabel"
+        app:layout_constraintTop_toBottomOf="@+id/PlatformsLabel" />
+
+    <TextView
+        android:id="@+id/GenreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genre"
+        android:layout_marginLeft="80dp"
+        android:textColor="#9F9D9D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/PlatformsLabel" />
+
+    <TextView
+        android:id="@+id/Genre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/GenreLabel"
+        app:layout_constraintTop_toBottomOf="@+id/GenreLabel" />
+
+    <TextView
+        android:id="@+id/ReleaseLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Release date"
+        android:textColor="#9F9D9D"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/Platforms"
+        app:layout_constraintTop_toBottomOf="@+id/Platforms" />
+
+    <TextView
+        android:id="@+id/Release"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/Platforms"
+        app:layout_constraintTop_toBottomOf="@+id/ReleaseLabel" />
+
+
+    <TextView
+        android:id="@+id/DeveloperLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Developer"
+        android:layout_marginTop="20dp"
+        android:textColor="#9F9D9D"
+        app:layout_constraintEnd_toEndOf="@+id/Genre"
+        app:layout_constraintStart_toStartOf="@+id/Genre"
+        app:layout_constraintTop_toBottomOf="@+id/Genre" />
+
+    <TextView
+        android:id="@+id/Developer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/DeveloperLabel"
+        app:layout_constraintStart_toStartOf="@+id/DeveloperLabel"
+        app:layout_constraintTop_toBottomOf="@+id/DeveloperLabel" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
